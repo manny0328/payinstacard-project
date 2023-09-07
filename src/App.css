@@ -1,0 +1,198 @@
+/* CSS */
+.btn:hover {
+  background-color: rgb(236, 113, 12) !important;
+  color: white !important;
+}
+
+/* Add this to your App.css file */
+.reduce-margin {
+  margin-bottom: -10px; /* Adjust the margin as needed */
+}
+
+/* Define a CSS class for the container of content and image */
+.content-container {
+  display: flex; /* Use Flexbox for layout */
+  justify-content: space-between; /* Place content and image at each end of the container */
+  align-items: center; /* Vertically center-align content and image */
+  margin-left: 7rem; /* Adjust as needed */
+  margin-top: 7rem; /* Adjust as needed */
+}
+
+/* Style for the content on the left */
+.content {
+  flex: 1; /* Allow content to grow and take up available space */
+}
+
+/* Style for the image on the right */
+.content-right img {
+  width: 25rem; /* Set the desired width */
+  height: 33rem; /* Set the desired height */
+  margin-right: 10rem;
+ 
+}
+.bio{
+  margin-left: 7rem;
+}
+.first-line{
+  width: 45rem;
+}
+.signup{
+  margin-left: 7rem;
+  border: none;
+  width: 90px;
+  height: 30px;
+}
+/* Define a CSS class for the right side content */
+.content-rightz {
+  display: flex;
+  justify-content: flex-end; /* Align content to the right end */
+  align-items: center;
+  margin-right: 15rem;
+  margin-top: 5rem;
+}
+/* Add this to your CSS */
+.card-image {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 0.7em;
+}
+
+.card {
+  max-width: 30em;
+}
+
+.card-text-small {
+  font-size: smaller; /* Adjust the font size as needed */
+  line-height: 1.2; /* Adjust the line height as needed */
+}
+
+.card-text-ellipsis {
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Show 2 lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-height: 2.4em; /* 2 lines * line height */
+}
+
+.allcards{
+  margin-left: 15rem;
+}
+.allcards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards-container {
+  flex: 1;
+}
+
+.text-container {
+  text-align: left;
+  margin-right: 20rem;
+}
+
+.text-title {
+  color: #000;
+  font-family: 'Inter, sans-serif';
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 1px;
+  margin: 0; /* Remove margin to align with the start line */
+  padding: 0; /* Remove padding to align with the start line */
+  
+}
+.ul-text li{
+  margin-left: -1rem;
+}
+/* Define a custom class for the orange button */
+.btn-orange-bg {
+  background-color: rgb(236, 113, 12) !important;
+  /* You can adjust other button styles as needed */
+  color: white !important; /* Text color */
+  border: none; /* Remove borders */
+  border-radius: 30px !important; /* Add border radius */
+  padding: 10px 20px; /* Adjust padding as needed */
+ font-size: 10px !important;
+}
+/* Add this to your App.css file */
+
+.ourDestinations{
+  margin-left: 7rem;
+}
+.uni-name{
+  margin-bottom: 1rem;
+}
+.card-image-one{
+  margin-left: 18rem;
+  margin-top: -5rem;
+}
+
+.small-card {
+  max-width: 10rem; /* Set the maximum width of the card */
+  height: 10rem; /* Set the height of the card */
+  margin: 0 auto; /* Center the card horizontally */
+}
+
+.small-image {
+  max-width: 3rem; /* Set the maximum width of the image */
+  height: auto; /* Maintain the aspect ratio of the image */
+  margin-left: 3rem;
+}
+
+.card-text {
+  font-size: 12px; /* Adjust the font size of the card text */
+}
+
+
+
+
+
+.card{
+  padding: 10px;
+}
+.card-small {
+  max-width: 300px; /* Adjust the width as needed */
+  margin: 0 auto; /* Center the card horizontally */
+}
+.custom-card {
+  border-color: white;
+  border-radius: 15px !important;
+  box-shadow: 0 4px 8px rgba(65, 64, 64, 0.2); /* Add a shadow */
+}
+.form-control {
+  border-radius: 8px !important; /* Adjust the radius value as needed */
+}
+.custom-card-title {
+  color: #000;
+ 
+  font-size: 27.685px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.custom-card-text {
+  color: #282828;
+  font-size: 13.677px;
+  font-style: normal;
+  font-weight: 400;
+}
+/* Define a custom class for the button */
+.light-gray-button {
+  background-color: #f0f0f0;
+  color: #000;
+}
+.filling-form{
+  display: flex;
+  justify-content: right;
+  margin-top: -21rem;
+}
+.form-control{
+  background-color:  var(--muted-color, #f4f5f5)!important;
+}
+.lb{
+  font-size: 12px;
+}
